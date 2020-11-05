@@ -17,7 +17,7 @@ submit.addEventListener("click", () => {
 
     if ("motivation" === answer1.value.toLowerCase() && "innovation" === answer2.value.toLowerCase() && "transformation" === answer3.value.toLowerCase()) {
         response.innerText = "Congrats You Can Proceed"
-        link.setAttribute("href", "https://www.google.com/")
+        link.setAttribute("href", "https://sid-2001.github.io/Final-Game-Clue/")
         inputSection.style.display = "none"
         winResult.style.display = ""
         winResult.classList.add("animate")
